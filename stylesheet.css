@@ -20,6 +20,11 @@ section{
     padding: 3rem;
 }
 
+.main{
+    height: auto;
+    width: auto;
+}
+
 .header{
     position: sticky;
     top: 0; left: 0; right: 0;
@@ -92,15 +97,19 @@ section{
 }
 
 table{
-    margin-top: 15px;
+    margin-top: 10px;
     width:100%;
     text-align: center;
+    object-fit: cover;
 }
 
-
-.footer, .contact{
-    margin-top: 15px;
-    background-color: aqua;
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background: url('img/bg_navbar.jpg');
 }
 
 
