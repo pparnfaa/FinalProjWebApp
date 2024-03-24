@@ -91,23 +91,22 @@ section{
 .insideLogo, .tasteLogo, .sauceLogo, .toppingLogo{
     border: 5px solid rgb(109, 77, 56);
     border-radius: 65px;
-    width: 350px;
-    height: 350px;
+    width: 90%;
+    height: 90%;
     display: inline-block; 
 }
 
 table{
-    margin-top: 10px;
+    margin-top: 2.3%;
     width:100%;
     text-align: center;
-    object-fit: cover;
 }
 
 .footer{
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 150px;
+    height: 18%;
     width: 100%;
     background: url('img/bg_navbar.jpg');
 }
