@@ -93,22 +93,3 @@ section{
 }
 
 /* important ! */
-
-.chooseInside{
-    max-width: 10000px;
-
-}
-
-.bread, .brownie, .strawberry{
-    border: 5px solid rgb(109, 77, 56);
-    border-radius: 65px;
-    width: 75%;
-    height: 75%;
-    display: inline-block; 
-}
-
-table{
-    /*margin-top: 0.5%;*/
-    width:100%;
-    text-align: center;
-}

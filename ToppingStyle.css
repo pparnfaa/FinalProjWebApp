@@ -94,16 +94,16 @@ section{
 
 /* important ! */
 
-.chooseInside{
+.chooseSauce{
     max-width: 10000px;
 
 }
 
-.bread, .brownie, .strawberry{
+.jelly, .cocoa, .cereal, .oreo{
     border: 5px solid rgb(109, 77, 56);
     border-radius: 65px;
-    width: 75%;
-    height: 75%;
+    width: 90%;
+    height: 90%;
     display: inline-block; 
 }
 
