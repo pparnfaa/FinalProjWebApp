@@ -1,42 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>BiZoo</title>
 
     <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body class="main">
     <!-- HEADER AND NAVBAR -->
     <header class="header">
         <section class="flex">
-            <nav class="navbar"> 
+            <nav class="navbar">
                 <div>
                     <a href="home.html"><img class="logo" src="img/logo.png"></a>
                 </div>
                 <div class="right-button">
                     <a href="translate.html" class="translate">EN</a>
-                    <a href="shopCart.html" class="cart"><img src="img/cart-solid-24.png"></a>        
+                    <a href="shopCart.html" class="cart"><img src="img/cart-solid-24.png"></a>
                 </div>
-                
-            </nav>   
+
+            </nav>
         </section>
     </header>
     <!-- END OF HEADER AND NAVBAR -->
     <section class="component">
-            <table>
+        <form>
+            <table class="choose">
                 <tr>
-                    <td><a class="insideButton" href="insidePage.html"><img class="insideLogo" src="img/inside_th.png"></a></td>
-                    <td><a class="tasteButton" href="tastePage.html"><img class="tasteLogo" src="img/taste_th.png"></a></td>
-                    <td><a class="sauceButton" href="saucePage.html"><img class="sauceLogo" src="img/sauce_th.png"></a></td>
-                    <td><a class="toppingButton" href="toppingPage.html"><img class="toppingLogo" src="img/topping_th.png"></a></td>
+                    <td>
+                        <h1 class="chooseNo1">เลือกไส้ของบิงซู<br>(ขั้นตอนที่ 1)</h1>
+                    </td>
+                    <td>
+                        <h1 class="chooseNo2">เลือกไส้ของบิงซู<br>(ขั้นตอนที่ 2)</h1>
+                    </td>
+                    <td>
+                        <h1 class="chooseNo3">เลือกซอสราด<br>(ขั้นตอนที่ 3)</h1>
+                    </td>
+                    <td>
+                        <h1 class="chooseNo3">เลือกท็อปปิ้ง<br>(ขั้นตอนที่ 4)</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="bread" src="img/bread_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="bread_in" type="checkbox" />
+                            <label class="cbx" for="bread_in"></label>
+                            <label class="lbl" for="bread_in"></label>
+                        </div>
+                    </td >
+                    <td >
+                        <img class="strawberry_t" src="img/strawberry_t_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="strawberry_t" type="checkbox" />
+                            <label class="cbx" for="strawberry_t"></label>
+                            <label class="lbl" for="strawberry_t"></label>
+                        </div>
+                    </td>   
+                    <td >
+                        <img class="chocolate_s" src="img/chocolate_s_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="chocolate_s" type="checkbox" />
+                            <label class="cbx" for="chocolate_s"></label>
+                            <label class="lbl" for="chocolate_s"></label>
+                        </div>
+                    </td> 
+                    <td >
+                        <img class="cereal_t" src="img/cereal_t_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="cereal_t" type="checkbox" />
+                            <label class="cbx" for="cereal_t"></label>
+                            <label class="lbl" for="cereal_t"></label>
+                        </div>
+                    </td>  
+                </tr>
+                <tr>
+                    <td>
+                        <img class="brownie" src="img/brownie_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="brownie" type="checkbox" />
+                            <label class="cbx" for="brownie"></label>
+                            <label class="lbl" for="brownie"></label>
+                        </div>
+                    </td>
+                    <td >
+                        <img class="chocolate_t" src="img/choco_t_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="chocolate_t" type="checkbox" />
+                            <label class="cbx" for="chocolate_t"></label>
+                            <label class="lbl" for="chocolate_t"></label>
+                        </div>
+                    </td> 
+                    <td >
+                        <img class="strawberry_s" src="img/strawberry_s_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="strawberry_s" type="checkbox" />
+                            <label class="cbx" for="strawberry_s"></label>
+                            <label class="lbl" for="strawberry_s"></label>
+                        </div>
+                    </td>
+                    <td >
+                        <img class="jelly_t" src="img/jelly_t_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="jelly_t" type="checkbox" />
+                            <label class="cbx" for="jelly_t"></label>
+                            <label class="lbl" for="jelly_t"></label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="strawberry" src="img/strawberry_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="strawberry" type="checkbox" />
+                            <label class="cbx" for="strawberry"></label>
+                            <label class="lbl" for="strawberry"></label>
+                        </div>
+                    </td>
+                    <td>
+                        <img class="vanilla_t" src="img/vanilla_t_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="vanilla_t" type="checkbox" />
+                            <label class="cbx" for="vanilla_t"></label>
+                            <label class="lbl" for="vanilla_t"></label>
+                        </div>
+                    </td> 
+                    <td >
+                        <img class="milk_s" src="img/milk_s_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="milk_s" type="checkbox" />
+                            <label class="cbx" for="milk_s"></label>
+                            <label class="lbl" for="milk_s"></label>
+                        </div>
+                    </td> 
+                    <td >
+                        <img class="cocoacrunch_t" src="img/cocoacrunch_t_th.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="cocoacrunch_t" type="checkbox" />
+                            <label class="cbx" for="cocoacrunch_t"></label>
+                            <label class="lbl" for="cocoacrunch_t"></label>
+                        </div>
+                    </td> 
                 </tr>
             </table>
+     
+        </form>
     </section>
-    <section class="footer">
-        
-    </section>
-
 </body>
+
 </html>

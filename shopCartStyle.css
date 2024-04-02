@@ -83,13 +83,13 @@ section{
     background-color: rgb(248, 220, 225);
 }
 
-.footer{
+/*.footer{
     position: absolute;
     left: 0;
     bottom: 0;
     height: 13%;
     width: 100%;
     background: url('img/bg_navbar.jpg');
-}
+}*/
 
 /* important ! */

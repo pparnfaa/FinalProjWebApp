@@ -1,57 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
-*{margin: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Madimi One", sans-serif;
     text-decoration: none;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow: hidden;
     scroll-behavior: smooth;
     stop-opacity: 7rem;
 }
 
-section{
+section {
     margin: 0 auto;
     max-width: 10000px;
     padding: 3rem;
 }
 
-.main{
+/*.main{
     height: auto;
     width: auto;
-}
+}*/
 
-.header{
+
+.header {
     position: sticky;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1500;
     background: url(img/bg_navbar.jpg);
-    
+
 }
 
-.header .flex .logo-pic{
+.header .flex .logo-pic {
     width: 56px;
 }
 
-.header .flex .logo{
+.header .flex .logo {
     font-size: 3rem;
     color: rgb(39, 26, 18);
-    
+
 }
 
-.header .flex .navbar a{
+.header .flex .navbar a {
     color: rgb(39, 26, 18);
-    
-    
 }
 
-.navbar{
+.navbar {
     max-width: 90vw;
-    height: 100px;
+    height: 60px;
     --background: rgb(255, 238, 0);
     margin: 0 auto;
     display: flex;
@@ -61,34 +63,276 @@ section{
 
 }
 
-.logo{
-    width: 25%;
-    height: 25%;
+.logo {
+    width: 20%;
+    height: 20%;
     border: 3px solid rgb(109, 77, 56);
     border-radius: 30px;
 }
 
-.right-button{
+.right-button {
     align-items: center;
     display: flex;
     column-gap: 3rem;
 }
 
-.translate{
+.translate {
     color: rgb(109, 77, 56);
     font-size: 2rem;
 }
 
-.main{
-    background-color: rgb(248, 220, 225);
+.main {
+    background-color: #EAD2E6;
 }
 
-.component{
+.component {
     max-width: 10000px;
-
+    height: 84vh;
+    overflow-y: auto;
 }
 
-.insideLogo, .tasteLogo, .sauceLogo, .toppingLogo{
+.choose {
+    border: 3px solid rgb(109, 77, 56);
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #F7E4DF;
+}
+
+tr,
+td {
+    padding: 2% 0 2% 0;
+    border: 3px solid rgb(109, 77, 56);
+    border-collapse: collapse;
+}
+
+
+
+
+
+.chooseNo1 ,.chooseNo2,.chooseNo3{
+    margin: 2%;
+    font-size: 275%;
+    color: rgb(56, 40, 29);
+}
+
+.bread,
+.brownie,
+.strawberry,
+.strawberry_t,
+.chocolate_t,
+.vanilla_t,
+.chocolate_s,
+.strawberry_s,
+.milk_s,
+.cereal_t,
+.oreo_t,
+.cocoacrunch_t,
+.jelly_t{
+    border: 5px solid rgb(109, 77, 56);
+    border-radius: 65px;
+    width: 67%;
+    height: 67%;
+    display: inline-block;
+}
+
+.chooseTaste {
+    border: 2px solid black;
+    text-align: center;
+    width: 20%;
+    background-color: #F7E4DF;
+}
+
+
+.checkbox-wrapper-42 input[type="checkbox"] {
+    display: none;
+    visibility: hidden;
+}
+
+.checkbox-wrapper-42 label {
+    display: inline-block;
+}
+
+.checkbox-wrapper-42 .cbx {
+    position: relative;
+    top: 1px;
+    width: 17px;
+    height: 17px;
+    border: 2px solid rgb(109, 77, 56);
+    border-radius: 3px;
+    vertical-align: middle;
+    transition: background 0.1s ease;
+    cursor: pointer;
+    margin-top: 2%;
+    background-color: white;
+}
+
+.checkbox-wrapper-42 .cbx:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 4px;
+    height: 10px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transition: all 0.3s ease;
+    transition-delay: 0.15s;
+}
+
+.checkbox-wrapper-42 .lbl {
+    margin-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.checkbox-wrapper-42 input[type="checkbox"]:checked~.cbx {
+    border-color: transparent;
+    background: rgb(207, 51, 111);
+    animation: jelly-42 0.6s ease;
+}
+
+.checkbox-wrapper-42 input[type="checkbox"]:checked~.cbx:after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+
+.checkbox-wrapper-42 .cntr {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.chooseTaste{
+    
+}
+
+@-moz-keyframes jelly-42 {
+    from {
+        transform: scale(1, 1);
+    }
+
+    30% {
+        transform: scale(1.25, 0.75);
+    }
+
+    40% {
+        transform: scale(0.75, 1.25);
+    }
+
+    50% {
+        transform: scale(1.15, 0.85);
+    }
+
+    65% {
+        transform: scale(0.95, 1.05);
+    }
+
+    75% {
+        transform: scale(1.05, 0.95);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+@-webkit-keyframes jelly-42 {
+    from {
+        transform: scale(1, 1);
+    }
+
+    30% {
+        transform: scale(1.25, 0.75);
+    }
+
+    40% {
+        transform: scale(0.75, 1.25);
+    }
+
+    50% {
+        transform: scale(1.15, 0.85);
+    }
+
+    65% {
+        transform: scale(0.95, 1.05);
+    }
+
+    75% {
+        transform: scale(1.05, 0.95);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+@-o-keyframes jelly-42 {
+    from {
+        transform: scale(1, 1);
+    }
+
+    30% {
+        transform: scale(1.25, 0.75);
+    }
+
+    40% {
+        transform: scale(0.75, 1.25);
+    }
+
+    50% {
+        transform: scale(1.15, 0.85);
+    }
+
+    65% {
+        transform: scale(0.95, 1.05);
+    }
+
+    75% {
+        transform: scale(1.05, 0.95);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes jelly-42 {
+    from {
+        transform: scale(1, 1);
+    }
+
+    30% {
+        transform: scale(1.25, 0.75);
+    }
+
+    40% {
+        transform: scale(0.75, 1.25);
+    }
+
+    50% {
+        transform: scale(1.15, 0.85);
+    }
+
+    65% {
+        transform: scale(0.95, 1.05);
+    }
+
+    75% {
+        transform: scale(1.05, 0.95);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+
+
+/*.insideLogo, .tasteLogo, .sauceLogo, .toppingLogo{
     border: 5px solid rgb(109, 77, 56);
     border-radius: 65px;
     width: 90%;
@@ -129,17 +373,4 @@ table{
     height: 18%;
     width: 100%;
     background: url('img/bg_navbar.jpg');
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+}*/
