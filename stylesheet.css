@@ -236,14 +236,15 @@ body {
 
 
 button {
+    margin-top: 1%;
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 170px;
-    height: 40px;
+    width: 16%;
+    height: 50px;
     line-height: 1;
     font-size: 18px;
     font-weight: bold;
@@ -255,10 +256,13 @@ button {
     cursor: pointer;
     overflow: hidden;
     transition: all .35s;
+    box-shadow: 0 4px 6px rgb(109, 77, 56);
+
 }
 
 button:hover {
-    background: #d65f5f;
+    background: #d65f91;
+    ;
     color: #fcfcfc;
 }
 
