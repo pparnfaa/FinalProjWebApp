@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -127,9 +128,16 @@ td {
 .chooseNo1,
 .chooseNo2,
 .chooseNo3 {
+    width: 100%;
     margin: 2%;
     font-size: 275%;
     color: rgb(56, 40, 29);
+    font-family: "IBM Plex Sans Thai";
+}
+
+.condition{
+    font-size: 190%;
+    font-family: "IBM Plex Sans Thai";
 }
 
 .bread,
@@ -172,8 +180,8 @@ td {
 .checkbox-wrapper-42 .cbx {
     position: relative;
     top: 1px;
-    width: 17px;
-    height: 17px;
+    width: 30px;
+    height: 30px;
     border: 2px solid rgb(109, 77, 56);
     border-radius: 3px;
     vertical-align: middle;
@@ -186,10 +194,10 @@ td {
 .checkbox-wrapper-42 .cbx:after {
     content: '';
     position: absolute;
-    top: 0px;
-    left: 4px;
-    width: 4px;
-    height: 10px;
+    top: 2px;
+    left: 8px;
+    width: 8px;
+    height: 16px;
     opacity: 0;
     transform: rotate(45deg) scale(0);
     border-right: 2px solid white;

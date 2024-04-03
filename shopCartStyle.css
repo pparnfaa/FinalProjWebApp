@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
 
 /* important ! */
 
@@ -6,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Madimi One", sans-serif;
     text-decoration: none;
 }
 
@@ -105,6 +105,7 @@ section {
 }
 
 .headOrderDetail {
+    font-family: "Madimi One";
     font-size: 275%;
 }
 
@@ -138,10 +139,11 @@ td {
     width: 20%;
     text-align: left;
     background-color: #F7C9CB;
-    padding: 1%
+    padding: 1%;
 }
 
 .headOrderNum {
+    font-family: "Madimi One";
     font-size: 200%;
 }
 
@@ -151,6 +153,7 @@ td {
 .sauce,
 .total,
 .totalPrice {
+    font-family: "IBM Plex Sans Thai";
     padding-top: 4%;
 }
 
@@ -167,6 +170,7 @@ td {
     text-align: left;
     font-size: 180%;
     padding-bottom: 5%;
+    font-family: "IBM Plex Sans Thai";
 }
 
 .underline {
@@ -183,7 +187,7 @@ td {
 }
 
 .conBtn{
-padding-left: 3%;
+padding-left: 6%;
 }
 
 .button-28 {
@@ -222,7 +226,7 @@ padding-left: 3%;
     color: #fff;
     background-color: #d65f91;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
+    transform: translateY(-1px);
 }
 
 .button-28:active {
@@ -241,6 +245,7 @@ button {
     box-shadow: 0 0 10px rgb(109, 77, 56);
     overflow: hidden;
     transition: .3s;
+    font-family: "Madimi One";
 }
 
 button:hover {
@@ -270,13 +275,14 @@ span {
     opacity: 0;
     transform: translate(-50%, -50%);
     color: #d65f91;
+    font-size: 130%;
     font-weight: 600;
     transition: .3s;
 }
 
 button:focus {
-    width: 95px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     transition: .3s;
 }
 
