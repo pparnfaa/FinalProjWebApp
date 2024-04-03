@@ -1,46 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>BiZoo</title>
 
     <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body class="main">
     <!-- HEADER AND NAVBAR -->
+    <script>
+        let btn = document.querySelector("button");
+
+        btn.addEventListener("click", active);
+
+        function active() {
+            btn.classList.toggle("is_active");
+        }   
+    </script>
     <header class="header">
         <section class="flex">
-            <nav class="navbar"> 
+            <nav class="navbar">
                 <div>
-                    <a href="home.html"><img class="logo" src="img/logo.png"></a>
+                    <a href="translate.html"><img class="logo" src="img/logo.png"></a>
                 </div>
                 <div class="right-button">
                     <a href="home.html" class="translate">TH</a>
-                    <a href="shopCart_en.html" class="cart"><img src="img/cart-solid-24.png"></a>        
+                    <a href="shopCart_en.html" class="cart"><img src="img/cart-solid-24.png"></a>
                 </div>
-                
-            </nav>   
+
+            </nav>
         </section>
     </header>
     <!-- END OF HEADER AND NAVBAR -->
     <section class="component">
-        <table>
-            <tr>
-                <td><a class="insideButton" href="insidePage_en.html"><img class="insideLogo" src="img/inside.png"></a></td>
-                <td><a class="tasteButton" href="tastePage_en.html"><img class="tasteLogo" src="img/taste.png"></a></td>
-                <td><a class="sauceButton" href="saucePage_en.html"><img class="sauceLogo" src="img/sauce.png"></a></td>
-                <td><a class="toppingButton" href="toppingPage_en.html"><img class="toppingLogo" src="img/topping.png"></a></td>
-            </tr>
-        </table>
+        <form>
+            <table class="choose">
+                <tr>
+                    <td class="step1">
+                        <h1 class="chooseNo1">Choose<br>Inside<br>(Step 1)</h1>
+                    </td>
+                    <td class="step1">
+                        <img class="bread" src="img/bread_in.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="bread_in" type="checkbox" />
+                            <label class="cbx" for="bread_in"></label>
+                            <label class="lbl" for="bread_in"></label>
+                        </div>
+                    </td>
+                    <td class="step1">
+                        <img class="strawberry" src="img/strawberry_in.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="strawberry" type="checkbox" />
+                            <label class="cbx" for="strawberry"></label>
+                            <label class="lbl" for="strawberry"></label>
+                        </div>
+                    </td>
+                    <td class="step1">
+                        <img class="brownie" src="img/brownie_in.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="brownie" type="checkbox" />
+                            <label class="cbx" for="brownie"></label>
+                            <label class="lbl" for="brownie"></label>
+                        </div>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td class="step2">
+                        <h1 class="chooseNo2">Choose Taste<br>(Step 2)</h1>
+                    </td>
+                    <td class="step2">
+                        <img class="strawberry_t" src="img/strawberry_t.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="strawberry_t" type="checkbox" />
+                            <label class="cbx" for="strawberry_t"></label>
+                            <label class="lbl" for="strawberry_t"></label>
+                        </div>
+                    </td>
+                    <td class="step2">
+                        <img class="chocolate_t" src="img/chocolate_t.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="chocolate_t" type="checkbox" />
+                            <label class="cbx" for="chocolate_t"></label>
+                            <label class="lbl" for="chocolate_t"></label>
+                        </div>
+                    </td>
+                    <td class="step2">
+                        <img class="vanilla_t" src="img/vanilla_t.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="vanilla_t" type="checkbox" />
+                            <label class="cbx" for="vanilla_t"></label>
+                            <label class="lbl" for="vanilla_t"></label>
+                        </div>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td class="step3">
+                        <h1 class="chooseNo3">Choose Sauce<br>(Step 3)</h1>
+                    </td>
+                    <td class="step3">
+                        <img class="chocolate_s" src="img/chocolate_s.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="chocolate_s" type="checkbox" />
+                            <label class="cbx" for="chocolate_s"></label>
+                            <label class="lbl" for="chocolate_s"></label>
+                        </div>
+                    </td>
+                    <td class="step3">
+                        <img class="strawberry_s" src="img/strawberry_s.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="strawberry_s" type="checkbox" />
+                            <label class="cbx" for="strawberry_s"></label>
+                            <label class="lbl" for="strawberry_s"></label>
+                        </div>
+                    </td>
+                    <td class="step3">
+                        <img class="milk_s" src="img/milk_s.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="milk_s" type="checkbox" />
+                            <label class="cbx" for="milk_s"></label>
+                            <label class="lbl" for="milk_s"></label>
+                        </div>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td class="step4">
+                        <h1 class="chooseNo3">Choose Topping<br>(Step 4)</h1>
+                    </td>
+                    <td class="step4">
+                        <img class="jelly_t" src="img/jelly_t.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="jelly_t" type="checkbox" />
+                            <label class="cbx" for="jelly_t"></label>
+                            <label class="lbl" for="jelly_t"></label>
+                        </div>
+                    </td>
+                    <td class="step4">
+                        <img class="cocoacrunch_t" src="img/cocoa_t.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="cocoacrunch_t" type="checkbox" />
+                            <label class="cbx" for="cocoacrunch_t"></label>
+                            <label class="lbl" for="cocoacrunch_t"></label>
+                        </div>
+                    </td>
+                    <td class="step4">
+                        <img class="cereal_t" src="img/cereal_t.png">
+                        <div class="checkbox-wrapper-42">
+                            <input id="cereal_t" type="checkbox" />
+                            <label class="cbx" for="cereal_t"></label>
+                            <label class="lbl" for="cereal_t"></label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <section>
+                <div class="wrapper">
+                    <button class="" type="submit">
+                        <span>Submit</span>
+                        <div class="success">
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 29.756 29.756"
+                                style="enable-background:new 0 0 29.756 29.756;" xml:space="preserve">
+                                <path
+                                    d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173   c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752   c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z" />
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </section>      
+        </form>
     </section>
-    <section class="footer">
-        
-    </section>
-
-
-
-
-
 </body>
+
 </html>

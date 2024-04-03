@@ -80,8 +80,77 @@ section{
 }
 
 .main{
-    background-color: rgb(248, 220, 225);
+    background-color: #EAD2E6;
 }
+
+.orderDetail{
+    max-width: 10000px;
+    height: 84vh;
+    overflow-y: auto;
+}
+
+.order{
+    /*border: 3px solid rgb(109, 77, 56);*/
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    /*width: 100%;*/
+}
+
+.headOrderDetail{
+    font-size: 275%;
+}
+
+
+
+.Detail{
+    padding: 2%;
+    background-color: #F7C9CB;
+}
+
+tr,td{
+    border: 3px solid rgb(109, 77, 56);
+}
+
+.customerChoose{
+    border: 3px solid rgb(109, 77, 56);
+    margin-top: 2%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    background-color: #FDE8E9;
+    
+}
+
+.row1{  
+    padding-left: 2%;
+    width: 20%;
+    text-align: left;
+    background-color: #F7C9CB;
+    padding: 1%
+}
+
+.headOrderNum{
+    font-size: 200%;
+}
+
+.number, .inside{
+    padding-top: 4%;
+}
+
+.number, .inside, .insideDetail, .insideCount, .insidePrice{
+    padding-left: 5%;
+    text-align: left;
+    font-size: 180%;
+}
+
+
+
 
 /*.footer{
     position: absolute;
