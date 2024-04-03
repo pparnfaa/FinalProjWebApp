@@ -112,11 +112,11 @@ section{
 }
 
 tr,td{
-    border: 3px solid rgb(109, 77, 56);
+    /*border: 3px solid rgb(109, 77, 56);*/
 }
 
 .customerChoose{
-    border: 3px solid rgb(109, 77, 56);
+    /*border: 3px solid rgb(109, 77, 56);*/
     margin-top: 2%;
     border-collapse: collapse;
     margin-left: auto;
@@ -139,15 +139,17 @@ tr,td{
     font-size: 200%;
 }
 
-.number, .inside{
+.number, .inside, .taste, .sauce, .total, .totalPrice{
     padding-top: 4%;
 }
 
-.number, .inside, .insideDetail, .insideCount, .insidePrice{
+.number, .inside, .insideDetail, .insideCount, .insidePrice, .taste, .sauce, .total ,.totalPrice{
     padding-left: 5%;
     text-align: left;
     font-size: 180%;
+    padding-bottom: 5%;
 }
+
 
 
 
