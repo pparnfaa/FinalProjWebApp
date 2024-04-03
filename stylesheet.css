@@ -96,6 +96,7 @@ section {
     border-collapse: collapse;
     text-align: center;
     width: 100%;
+    box-shadow: 0 4px 6px rgb(109, 77, 56);
 }
 
 tr,
@@ -257,8 +258,8 @@ button {
 }
 
 button:hover {
-    background: #d682d6;
-    color: #fff;
+    background: #d65f5f;
+    color: #fcfcfc;
 }
 
 button span {
