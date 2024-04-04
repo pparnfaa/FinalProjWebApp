@@ -113,7 +113,7 @@ section {
 
 .Detail {
     padding: 2%;
-    background-color: #F7C9CB;
+    background-color: #b6baeb;
 }
 
 tr,
@@ -134,11 +134,11 @@ td {
 
 }
 
-.row1 {
+.row1{
     padding-left: 2%;
     width: 20%;
     text-align: left;
-    background-color: #F7C9CB;
+    background-color: #b6baeb;
     padding: 1%;
 }
 
@@ -172,6 +172,27 @@ td {
     padding-bottom: 5%;
     font-family: "IBM Plex Sans Thai";
 }
+
+.detail1, .deleteBtn {
+    background-color: #F7C9CB;
+}
+
+.detail2{
+    background-color: #F5D6D2;
+}
+
+.detail3{
+    background-color: #FDE8E9;
+}
+
+.detail4{
+    background-color: #E0E3EF;
+}
+
+.sumPrice{
+    background-color: #f8b1c3;
+}
+
 
 .underline {
     font-size: 200%;
