@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    stop-opacity: 7rem;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 10000px;
+    padding: 3rem;
+}
+
+/*.main{
+    height: auto;
+    width: auto;
+}*/
+
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1500;
+    background: url(img/bg_navbar.jpg);
+
+}
+
+.header .flex .logo-pic {
+    width: 56px;
+}
+
+.header .flex .logo {
+    font-size: 3rem;
+    color: rgb(39, 26, 18);
+
+}
+
+.header .flex .navbar a {
+    color: rgb(39, 26, 18);
+}
+
+.navbar {
+    max-width: 95%;
+    height: 60px;
+    --background: rgb(255, 238, 0);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+    border: 3px solid rgb(109, 77, 56);
+    border-radius: 30px;
+}
+
+.main {
+    background-color: #EAD2E6;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+body {
+    background: #f4f4f4;
+    /*height: 100vh;*/
+}
+
+.order-Btn{
+    text-align: center;
+    width: 150%;
+    height: 50px;
+    font-size: 190%;
+    border: 3px solid rgb(109, 77, 56);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: all .35s;
+    border-radius: 18px;
+}
+
+.order-Btn:hover{
+    background: #d65f91;
+    color: #fcfcfc;
+}
+
+tr,td{
+    /*border: 3px solid rgb(109, 77, 56);*/
+}
+
+.fillingStock{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    background-color:#F7C9CB;
+    box-shadow: 0 4px 6px rgb(109, 77, 56);
+}
+
+h2{
+    padding: 1%;
+    font-size: 400%;
+    color: rgb(73, 50, 35);
+    background-color: #ebb6db;
+    text-decoration: underline 4px rgb(73, 50, 35);
+}
+
+.filling-col{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.filling-img{
+    width: 65%;
+    border: 6px solid rgb(109, 77, 56);
+    border-radius: 65px;
+    width: 65%;
+    height: 65%;
+}
+
+h4{
+    padding-top: 2%;
+    font-size: 275%;
+    color: rgb(73, 50, 35);
+}
+
+.addItem{
+    font-size: 250%;
+    color: rgb(73, 50, 35);  
+}
+
+.addItem input{
+    width: 80px;
+    border: 2px solid rgb(77, 48, 48);
+    border-radius: 40px;
+    font-size: 90%;
+    color: #eb4c8e;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-btn{
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    font-size: 175%;
+    border: 3px solid rgb(109, 77, 56);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: all .35s;
+    border-radius: 15px;
+}
+
+.add-btn:hover{
+    background: #d65f8d;
+    color: #fcfcfc;
+}
+
+.tasteStock{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    background-color:#F5D6D2;
+    box-shadow: 0 4px 6px rgb(109, 77, 56);
+}
+
+.taste-col{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.taste-img{
+    width: 65%;
+    border: 6px solid rgb(109, 77, 56);
+    border-radius: 65px;
+    width: 65%;
+    height: 65%;
+}
+
+.sauceStock{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    background-color:#FDE8E9;
+    box-shadow: 0 4px 6px rgb(109, 77, 56);
+}
+
+.sauce-col{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.sauce-img{
+    width: 65%;
+    border: 6px solid rgb(109, 77, 56);
+    border-radius: 65px;
+    width: 65%;
+    height: 65%;
+}
+
+.toppingStock{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    background-color:#E0E3EF;
+    box-shadow: 0 4px 6px rgb(109, 77, 56);
+}
+
+.topping-col{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.topping-img{
+    width: 65%;
+    border: 6px solid rgb(109, 77, 56);
+    border-radius: 65px;
+    width: 65%;
+    height: 65%;
+}
+
+
+
+
+

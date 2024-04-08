@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    stop-opacity: 7rem;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 10000px;
+    padding: 3rem;
+}
+
+/*.main{
+    height: auto;
+    width: auto;
+}*/
+
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1500;
+    background: url(img/bg_navbar.jpg);
+
+}
+
+.header .flex .logo-pic {
+    width: 56px;
+}
+
+.header .flex .logo {
+    font-size: 3rem;
+    color: rgb(39, 26, 18);
+
+}
+
+.header .flex .navbar a {
+    color: rgb(39, 26, 18);
+}
+
+.navbar {
+    max-width: 95%;
+    height: 60px;
+    --background: rgb(255, 238, 0);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+    border: 3px solid rgb(109, 77, 56);
+    border-radius: 30px;
+}
+
+.main {
+    background-color: #EAD2E6;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.headComponent,td{
+    border: 3px solid rgb(0, 0, 0);
+    border-collapse: collapse ;
+}
+
+.headComponent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+h3{
+    font-size: 200%;
+}
+
+td{
+    padding: 1%;
+    background-color: #fac1d2;
+}
+
+.orderDetail{
+    font-size: 185%;
+    background-color: #ffffff;
+}
+
+button{
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 75%;
+    border: 3px solid rgb(109, 77, 56);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: #fce8f1;
+    transition: all .35s;
+    border-radius: 15px;
+}
+
+button:hover{
+    background: #d65f8d;
+    color: #fcfcfc;
+}
+
+.btn-space{
+    margin-top: 4%;
+}
+
+.Stock-Btn{
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    font-size: 175%;
+    border: 3px solid rgb(109, 77, 56);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: all .35s;
+    border-radius: 15px;
+}
+
+.Stock-Btn:hover{
+    background: #d65f8d;
+    color: #fcfcfc;
+}
